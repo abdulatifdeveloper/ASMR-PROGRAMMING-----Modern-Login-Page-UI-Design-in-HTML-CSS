@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+h1{
+    padding-left: 35%;
+}
+
+.login{
+    height: 52vh;
+    width: 23%;
+    border: 1px solid rgb(200, 200, 200);
+    margin: auto;
+    margin-top: 8pc;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.login:hover{
+    box-shadow: 0 0 10px 5px rgb(200, 200, 200);
+    transform: scale(1.1);
+}
+
+.login .login__img{
+    margin-left: 28%;
+    margin-top: 10px;
+}
+
+.login .login__img img{
+    width: 65%;
+}
+
+.login h2{
+    padding-left: 35px;
+    font-size: 28px;
+    color: gray;
+    transition: .1s;
+}
+
+.login .login__inputs{
+    margin-top: 10px;
+}
+
+.login .login__inputs .input1{
+    height: 5vh;
+    width: 85%;
+    margin-left: 7%;
+    border: 1px solid gray;
+    padding-left: 15px;
+    outline: none;
+    border-radius: 30px;   
+}
+
+.login .login__inputs .input2{
+    height: 5vh;
+    width: 85%;
+    margin-left: 7%;
+    border: 1px solid gray;
+    padding-left: 15px;
+    outline: none;
+    border-radius: 30px; 
+    margin-top: 10px;
+}
+
+.login .login__btn{
+    margin-top: 15px;
+    margin-left: 8%;
+    width: 83%;
+    height: 5vh;
+    border-radius: 30px;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: 
+    linear-gradient(35deg, rgb(255, 91, 91), rgb(253, 206, 65));
+}
